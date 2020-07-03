@@ -7,6 +7,6 @@
         android:bottomRightRadius="25dp"
         android:topRightRadius="25dp"/>
     <!-- 모서리 기울기 -->
-    <solid android:color="@color/buttonColor"/><!-- 배경색 -->
+    <solid android:color="@color/cancelbutton"/><!-- 배경색 -->
 
 </shape>

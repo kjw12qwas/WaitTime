@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <stroke
-        android:width="0.5dp"/>
+        android:width="0.5dp"
+        android:color="#707070"/>
     <corners android:topLeftRadius="25dp"
         android:bottomLeftRadius="25dp"
         android:bottomRightRadius="25dp"
         android:topRightRadius="25dp"/>
-    <!-- 모서리 기울기 -->
-    <solid android:color="@color/buttonColor"/><!-- 배경색 -->
+    <!-- 모서리 기울기 -->/><!-- 배경색 -->
 
 </shape>
