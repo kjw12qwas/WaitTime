@@ -2,6 +2,7 @@ package com.example.waittimeproject;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.viewpager.widget.ViewPager;
@@ -9,6 +10,7 @@ import androidx.viewpager.widget.ViewPager;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.TableLayout;
+import android.widget.Toolbar;
 
 import com.example.waittimeproject.fragment.Home_frame;
 import com.example.waittimeproject.fragment.Profile_frame;

@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".fragment.Write_frame" />
-        <activity android:name=".fragment.Profile_frame" />
+        <activity android:name=".fragment.Profile_frame" >
+        </activity>
         <activity android:name=".fragment.Home_frame" />
         <activity android:name=".fragment_Home">
             <intent-filter>

@@ -14,13 +14,11 @@ import com.example.waittimeproject.R;
 
 public class Write_frame extends Fragment {
 
-    ViewGroup viewGroup;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        viewGroup = (ViewGroup) inflater.inflate(R.layout.activity_write_frame,container,false);
+        return inflater.inflate(R.layout.activity_write_frame,container,false);
 
-        return viewGroup;
     }
 }
