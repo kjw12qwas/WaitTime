@@ -170,13 +170,13 @@
                         android:textColor="#000000"
                         android:text="로그아웃"
                         android:fontFamily="@font/fontb"/>
-                    <ImageView
+                    <Button
+                        android:background="@drawable/next"
                         android:layout_marginTop="5dp"
-                        android:id="@+id/profile_next4"
+                        android:id="@+id/logout"
                         android:layout_width="15dp"
                         android:layout_height="15dp"
-                        android:layout_marginLeft="50dp"
-                        android:src="@drawable/next"/>
+                        android:layout_marginLeft="50dp"/>
                 </LinearLayout>
             </LinearLayout>
 

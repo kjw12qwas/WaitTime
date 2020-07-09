@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6279E9"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="58dp"
+            android:id="@+id/title"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="50dp"
+            android:text="암호찾기"
+            android:layout_width="200dp"
+            android:layout_height="57.5dp"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/background">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/lost_id"
+                    android:layout_gravity="top|center"
+                    android:layout_marginTop="55.5dp"
+                    android:layout_width="257dp"
+                    android:layout_height="50dp"
+                    android:hint="아이디 입력"
+                    android:textStyle="bold"
+                    android:inputType="textEmailAddress"
+                    android:textColor="#A3A3A3"
+                    android:fontFamily="@font/fontm"
+                    android:textSize="12.5dp"
+                    android:background="#78E3E4DF"/>
+
+                <Button
+                    android:id="@+id/lost_button"
+                    android:layout_width="290dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/button"
+                    android:layout_marginTop="50dp"
+                    android:layout_gravity="center"
+                    android:text="EMAIL 발송"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/fontb"/>
+                            </LinearLayout>
+
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>

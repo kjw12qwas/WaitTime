@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "165812384378",
+    "firebase_url": "https://waittime-61892.firebaseio.com",
+    "project_id": "waittime-61892",
+    "storage_bucket": "waittime-61892.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165812384378:android:2889919fde86be187e41c3",
+        "android_client_info": {
+          "package_name": "com.example.waittimeproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165812384378-jobm8oa013tucghcblnqi52epj82avdv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.waittimeproject",
+            "certificate_hash": "1f61c4a6d3007e004e4b26acf9ef15d3103ceecb"
+          }
+        },
+        {
+          "client_id": "165812384378-99h0gqh9m27vdnvhfckealphput3ssgk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAND4rZEQlgXMwEmPgey6hj368FFv5NV3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165812384378-99h0gqh9m27vdnvhfckealphput3ssgk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -22,10 +22,6 @@ import android.widget.DatePicker;
 
 import com.example.waittimeproject.R;
 
-import org.eazegraph.lib.charts.BarChart;
-import org.eazegraph.lib.models.BarModel;
-
-
 public class Home_frame extends Fragment {
 
     @Nullable

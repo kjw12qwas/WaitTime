@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-
+apply plugin: 'com.google.gms.google-services'
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
@@ -24,14 +24,10 @@ android {
 }
 
 dependencies {
-    implementation 'com.github.lecho:hellocharts-library:1.5.8@aar'
-    implementation 'com.github.blackfizz:eazegraph:1.2.2@aar'
-    implementation 'com.nineoldandroids:library:2.4.0' //그래프 라이브러리
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.viewpager2:viewpager2:1.0.0' // 슬라이드 프래그먼트
-    implementation 'me.relex:circleindicator:2.1.4' // 슬라이드 프래그먼트
-    implementation 'androidx.navigation:navigation-fragment:2.3.0-alpha01' // 탭 프래그먼트
-    implementation "androidx.navigation:navigation-ui:2.3.0-alpha01" // 탭 프래그먼트
+    implementation 'com.google.android.gms:play-services-auth:18.0.0' // 이메일 인증
+    implementation 'com.google.firebase:firebase-auth:19.3.1' // 깃허브 로그인
+    implementation 'com.google.android.gms:play-services-auth:18.0.0' // 구글 로그인
+    implementation 'com.facebook.android:facebook-android-sdk:[4,5)' // 페이스북 로그인
     implementation 'com.android.support:appcompat-v7:29.2.0'
     implementation 'com.android.support:support-v4:29.2.0'
     implementation 'com.android.support:recyclerview-v7:29.2.0'
@@ -41,6 +37,8 @@ dependencies {
     implementation 'de.hdodenhof:circleimageview:3.0.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     testImplementation 'junit:junit:4.12'
+    implementation 'com.google.firebase:firebase-auth:19.3.1'
+    implementation 'com.google.firebase:firebase-analytics:17.2.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
