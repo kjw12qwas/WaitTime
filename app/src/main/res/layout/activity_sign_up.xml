@@ -28,7 +28,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
-
+                <EditText
+                    android:id="@+id/Sign_up_name"
+                    android:layout_gravity="top|center"
+                    android:layout_marginTop="55.5dp"
+                    android:layout_width="257dp"
+                    android:layout_height="50dp"
+                    android:hint="이름"
+                    android:textStyle="normal"
+                    android:inputType="text"
+                    android:textColor="#A3A3A3"
+                    android:fontFamily="@font/fontm"
+                    android:textSize="12.5dp"
+                    android:background="#78E3E4DF"/>
                 <EditText
                     android:id="@+id/Sign_up_ID"
                     android:layout_gravity="top|center"
@@ -70,17 +82,7 @@
                         android:layout_marginTop="9dp"
                         android:background="#78E3E4DF"/>
 
-                    <TextView
-                        android:layout_alignRight="@id/appear"
-                        android:layout_below="@+id/appear"
-                        android:id="@+id/if_password"
-                        android:layout_width="148dp"
-                        android:layout_height="20dp"
-                        android:layout_gravity="center"
-                        android:fontFamily="@font/fontm"
-                        android:text=""
-                        android:textColor="#A3A3A3"
-                        android:textSize="12.5dp" />
+
                 </RelativeLayout>
 
                 <LinearLayout

@@ -22,6 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="39dp"/>
         <TextView
+            android:id="@+id/nickname"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:text="김재원님"
@@ -43,7 +44,7 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_marginLeft="40dp"
-                    android:layout_marginTop="43dp"
+                    android:layout_marginTop="23dp"
                     app:civ_border_width="2dp"
                     app:civ_border_color="#FFffffff"
                     android:layout_gravity="center_vertical"
@@ -70,7 +71,7 @@
                     android:layout_marginLeft="50dp"/>
 
                 <LinearLayout
-                    android:layout_marginTop="56dp"
+                    android:layout_marginTop="26dp"
                     android:layout_width="match_parent"
                     android:layout_height="37dp"
                     android:orientation="horizontal">
@@ -88,9 +89,10 @@
                         android:textColor="#000000"
                         android:text="누적 예약 횟수"
                         android:fontFamily="@font/fontb"/>
-                    <ImageView
+                    <Button
+                        android:background="@drawable/next"
                         android:layout_marginTop="5dp"
-                        android:id="@+id/profile_next"
+                        android:id="@+id/accumulate"
                         android:layout_width="15dp"
                         android:layout_height="15dp"
                         android:layout_marginLeft="50dp"
@@ -116,13 +118,15 @@
                         android:textColor="#000000"
                         android:text="비밀번호 변경"
                         android:fontFamily="@font/fontb"/>
-                    <ImageView
-                        android:layout_marginTop="5dp"
-                        android:id="@+id/profile_next2"
+
+                    <Button
+                        android:id="@+id/pass_change"
                         android:layout_width="15dp"
                         android:layout_height="15dp"
                         android:layout_marginLeft="50dp"
-                        android:src="@drawable/next"/>
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/next"
+                        android:src="@drawable/next" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_marginTop="18dp"
@@ -143,9 +147,10 @@
                         android:textColor="#000000"
                         android:text="나라 변경"
                         android:fontFamily="@font/fontb"/>
-                    <ImageView
+                    <Button
+                        android:background="@drawable/next"
                         android:layout_marginTop="5dp"
-                        android:id="@+id/profile_next3"
+                        android:id="@+id/country_change"
                         android:layout_width="15dp"
                         android:layout_height="15dp"
                         android:layout_marginLeft="50dp"

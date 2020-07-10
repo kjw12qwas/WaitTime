@@ -7,6 +7,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.viewpager.widget.ViewPager;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.TableLayout;
@@ -31,7 +32,6 @@ public class fragment_Home extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fragment__home);
-
         bottomNavigationView = findViewById(R.id.bottom_navigation_view); // 첫 화면에 띄워줄 프래그먼트
         getSupportFragmentManager().beginTransaction().replace(R.id.layout_main_Frame,home_frame).commitAllowingStateLoss();
         bottomNavigationView.setSelectedItemId(R.id.home_f);

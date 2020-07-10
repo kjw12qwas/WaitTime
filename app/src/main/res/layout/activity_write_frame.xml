@@ -22,6 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="39dp"/>
         <TextView
+            android:id="@+id/nickname"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:text="김재원님"
