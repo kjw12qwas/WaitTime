@@ -60,13 +60,13 @@
                         android:textColor="#000000"
                         android:text="예약"
                         android:fontFamily="@font/fontb"/>
-                    <ImageView
+                    <Button
                         android:layout_marginTop="5dp"
                         android:id="@+id/profile_next2"
                         android:layout_width="15dp"
                         android:layout_height="15dp"
                         android:layout_marginLeft="50dp"
-                        android:src="@drawable/next"/>
+                        android:background="@drawable/next"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_marginTop="18dp"
@@ -87,13 +87,13 @@
                         android:textColor="#000000"
                         android:text="예약 미루기"
                         android:fontFamily="@font/fontb"/>
-                    <ImageView
+                    <Button
                         android:layout_marginTop="5dp"
                         android:id="@+id/profile_next3"
                         android:layout_width="15dp"
                         android:layout_height="15dp"
                         android:layout_marginLeft="50dp"
-                        android:src="@drawable/next"/>
+                        android:background="@drawable/next"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_marginTop="18dp"
@@ -114,13 +114,13 @@
                         android:textColor="#000000"
                         android:text="상담원 연결"
                         android:fontFamily="@font/fontb"/>
-                    <ImageView
+                    <Button
                         android:layout_marginTop="5dp"
                         android:id="@+id/profile_next4"
                         android:layout_width="15dp"
                         android:layout_height="15dp"
                         android:layout_marginLeft="50dp"
-                        android:src="@drawable/next"/>
+                        android:background="@drawable/next"/>
                 </LinearLayout>
             </LinearLayout>
 

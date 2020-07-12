@@ -60,14 +60,14 @@
                     android:layout_marginLeft="50dp"
                     android:layout_marginTop="18dp"/>
                 <TextView
-                    android:id="@+id/profile_country"
+                    android:id="@+id/profile_phone"
                     android:layout_width="match_parent"
                     android:layout_height="12dp"
                     android:textSize="10dp"
                     android:textColor="#ACA5A5"
                     android:layout_marginTop="5dp"
                     android:fontFamily="@font/fontb"
-                    android:text="Republic of Korea"
+                    android:text="전화번호"
                     android:layout_marginLeft="50dp"/>
 
                 <LinearLayout
@@ -108,7 +108,7 @@
                         android:layout_marginLeft="56dp"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
-                        android:src="@drawable/key"/>
+                        android:src="@drawable/notice"/>
                     <TextView
                         android:layout_marginTop="7dp"
                         android:layout_marginLeft="16dp"
@@ -116,41 +116,12 @@
                         android:layout_height="12dp"
                         android:textSize="10dp"
                         android:textColor="#000000"
-                        android:text="비밀번호 변경"
-                        android:fontFamily="@font/fontb"/>
-
-                    <Button
-                        android:id="@+id/pass_change"
-                        android:layout_width="15dp"
-                        android:layout_height="15dp"
-                        android:layout_marginLeft="50dp"
-                        android:layout_marginTop="5dp"
-                        android:background="@drawable/next"
-                        android:src="@drawable/next" />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_marginTop="18dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="37dp"
-                    android:orientation="horizontal">
-                    <ImageView
-                        android:layout_marginLeft="56dp"
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
-                        android:src="@drawable/country"/>
-                    <TextView
-                        android:layout_marginTop="7dp"
-                        android:layout_marginLeft="16dp"
-                        android:layout_width="200dp"
-                        android:layout_height="12dp"
-                        android:textSize="10dp"
-                        android:textColor="#000000"
-                        android:text="나라 변경"
+                        android:text="건의사항 작성"
                         android:fontFamily="@font/fontb"/>
                     <Button
                         android:background="@drawable/next"
                         android:layout_marginTop="5dp"
-                        android:id="@+id/country_change"
+                        android:id="@+id/notice_write"
                         android:layout_width="15dp"
                         android:layout_height="15dp"
                         android:layout_marginLeft="50dp"

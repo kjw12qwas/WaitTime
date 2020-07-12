@@ -54,6 +54,19 @@
                     android:fontFamily="@font/fontm"
                     android:textSize="12.5dp"
                     android:background="#78E3E4DF"/>
+                <EditText
+                    android:id="@+id/Sign_up_phone"
+                    android:layout_gravity="top|center"
+                    android:layout_marginTop="18dp"
+                    android:layout_width="257dp"
+                    android:layout_height="50dp"
+                    android:hint="전화번호"
+                    android:textStyle="normal"
+                    android:inputType="number"
+                    android:textColor="#A3A3A3"
+                    android:fontFamily="@font/fontm"
+                    android:textSize="12.5dp"
+                    android:background="#78E3E4DF"/>
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
