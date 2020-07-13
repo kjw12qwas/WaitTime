@@ -28,19 +28,30 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
-                <EditText
-                    android:id="@+id/lost_id"
-                    android:layout_gravity="top|center"
-                    android:layout_marginTop="55.5dp"
-                    android:layout_width="257dp"
-                    android:layout_height="50dp"
-                    android:hint="아이디 입력"
-                    android:textStyle="bold"
-                    android:inputType="textEmailAddress"
-                    android:textColor="#A3A3A3"
-                    android:fontFamily="@font/fontm"
-                    android:textSize="12.5dp"
-                    android:background="#78E3E4DF"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal">
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:background="#78E3E4DF"
+                        android:layout_gravity="bottom"/>
+                    <EditText
+                        android:id="@+id/lost_id"
+                        android:layout_gravity="top|center"
+                        android:layout_marginTop="55.5dp"
+                        android:layout_width="257dp"
+                        android:layout_height="50dp"
+                        android:hint="아이디 입력"
+                        android:textStyle="bold"
+                        android:inputType="textEmailAddress"
+                        android:textColor="#A3A3A3"
+                        android:fontFamily="@font/fontm"
+                        android:textSize="12.5dp"
+                        android:background="#78E3E4DF"/>
+                </LinearLayout>
 
                 <Button
                     android:id="@+id/lost_button"

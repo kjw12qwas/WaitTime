@@ -52,18 +52,20 @@
                 <TextView
                     android:id="@+id/profile_name"
                     android:layout_width="match_parent"
-                    android:layout_height="23dp"
+                    android:layout_height="30dp"
                     android:text="김재원"
                     android:textColor="#000000"
-                    android:textSize="20dp"
+                    android:textSize="25dp"
+                    android:gravity="center_vertical"
                     android:fontFamily="@font/fontb"
                     android:layout_marginLeft="50dp"
                     android:layout_marginTop="18dp"/>
                 <TextView
                     android:id="@+id/profile_phone"
                     android:layout_width="match_parent"
-                    android:layout_height="12dp"
-                    android:textSize="10dp"
+                    android:layout_height="15dp"
+                    android:textSize="13dp"
+                    android:gravity="center_vertical"
                     android:textColor="#ACA5A5"
                     android:layout_marginTop="5dp"
                     android:fontFamily="@font/fontb"
@@ -73,28 +75,29 @@
                 <LinearLayout
                     android:layout_marginTop="26dp"
                     android:layout_width="match_parent"
-                    android:layout_height="37dp"
+                    android:layout_height="45dp"
                     android:orientation="horizontal">
                     <ImageView
                         android:layout_marginLeft="56dp"
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
                         android:src="@drawable/write"/>
                     <TextView
-                        android:layout_marginTop="7dp"
+                        android:layout_gravity="center_vertical"
                         android:layout_marginLeft="16dp"
                         android:layout_width="200dp"
-                        android:layout_height="12dp"
-                        android:textSize="10dp"
+                        android:layout_height="20dp"
+                        android:textSize="18dp"
                         android:textColor="#000000"
                         android:text="누적 예약 횟수"
                         android:fontFamily="@font/fontb"/>
                     <Button
+                        android:layout_gravity="center_vertical"
                         android:background="@drawable/next"
-                        android:layout_marginTop="5dp"
                         android:id="@+id/accumulate"
-                        android:layout_width="15dp"
-                        android:layout_height="15dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
                         android:layout_marginLeft="50dp"
                         android:src="@drawable/next"/>
                 </LinearLayout>
@@ -102,56 +105,58 @@
                 <LinearLayout
                     android:layout_marginTop="18dp"
                     android:layout_width="match_parent"
-                    android:layout_height="37dp"
+                    android:layout_height="45dp"
                     android:orientation="horizontal">
                     <ImageView
+                        android:layout_gravity="center_vertical"
                         android:layout_marginLeft="56dp"
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
                         android:src="@drawable/notice"/>
                     <TextView
-                        android:layout_marginTop="7dp"
+                        android:layout_gravity="center_vertical"
                         android:layout_marginLeft="16dp"
                         android:layout_width="200dp"
-                        android:layout_height="12dp"
-                        android:textSize="10dp"
+                        android:layout_height="20dp"
+                        android:textSize="18dp"
                         android:textColor="#000000"
                         android:text="건의사항 작성"
                         android:fontFamily="@font/fontb"/>
                     <Button
                         android:background="@drawable/next"
-                        android:layout_marginTop="5dp"
+                        android:layout_gravity="center_vertical"
                         android:id="@+id/notice_write"
-                        android:layout_width="15dp"
-                        android:layout_height="15dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
                         android:layout_marginLeft="50dp"
                         android:src="@drawable/next"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_marginTop="18dp"
                     android:layout_width="match_parent"
-                    android:layout_height="37dp"
+                    android:layout_height="45dp"
                     android:orientation="horizontal">
                     <ImageView
                         android:layout_marginLeft="56dp"
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
                         android:src="@drawable/exit"/>
                     <TextView
-                        android:layout_marginTop="7dp"
+                        android:layout_gravity="center_vertical"
                         android:layout_marginLeft="16dp"
                         android:layout_width="200dp"
-                        android:layout_height="12dp"
-                        android:textSize="10dp"
+                        android:layout_height="20dp"
+                        android:textSize="18dp"
                         android:textColor="#000000"
                         android:text="로그아웃"
                         android:fontFamily="@font/fontb"/>
                     <Button
                         android:background="@drawable/next"
-                        android:layout_marginTop="5dp"
+                        android:layout_gravity="center_vertical"
                         android:id="@+id/logout"
-                        android:layout_width="15dp"
-                        android:layout_height="15dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
                         android:layout_marginLeft="50dp"/>
                 </LinearLayout>
             </LinearLayout>
